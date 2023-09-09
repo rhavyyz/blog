@@ -1,18 +1,17 @@
+import Link from "next/link"
+import style from "./style.module.css"
+import Search from "./search"
+
 export default function NavBar()
 {
     return (
-        <nav>
-            <a>
-                Blog Gemp                
-            </a>
-            <ul>
-                <li>
-                    <a href="/">
-                        All posts
-                    </a>
+        <nav className={style.NavBar}>
+            <Link href="/">
+                All posts
+            </Link>
 
-                </li>
-            </ul>
+            <Search/>
+
         </nav>
     )
 }

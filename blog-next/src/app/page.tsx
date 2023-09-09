@@ -20,8 +20,7 @@ export default async function Home() {
 
   return (
     <div>
-      { res[0].attributes.title }
-       {res.length}
+      { res[0].attributes.title } { res.length }
     </div>
   )
 }

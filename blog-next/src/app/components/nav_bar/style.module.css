@@ -1,0 +1,11 @@
+.NavBar
+{
+    display: flex;
+    width: 98%;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+    margin: 0 1vw;
+    /* background-color: rgb(243, 243, 243); */
+    border-bottom: 1px solid #b2b2ff;
+}
